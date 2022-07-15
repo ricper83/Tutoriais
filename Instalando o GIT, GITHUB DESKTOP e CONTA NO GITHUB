@@ -1,0 +1,188 @@
+Instalando o GIT, GITHUB DESKTOP e CONTA NO GITHUB:
+
+Tutorial feito com base no que aprendi nos vídeos do Prof. Gustavo Guanabara, https://youtu.be/GDGMf2bnHlE
+Recomendo os vídeos dele, uma das melhores didáticas que já vi.
+
+ÍNDICE:
+
+F3 ou busque no arquivo:
+
+a1 - GIT e GITHUB
+b1- INSTALANDO GIT E GITHUB DESKTOP
+c1- FAZENDO SUA CONTA NO GITHUB
+d1- CRIANDO REPOSITÓRIOS LOCAIS E REMOTOS
+e1- PUBLICANDO O REPOSITÓRIO
+f1- GERENCIANDO REPOSITÓRIOS
+f2- PARA CRIAR UM REPOSITÓRIO NOVO
+f3- PARA DELETAR ALGUM REPOSITÓRIO
+
+a1 - GIT e GITHUB
+
+Repositórios locais e online
+
+Repositórios são locais onde vc guarda dados, pode ser no seu computador dentro de uma pasta ou online, na rede.
+
+Se o seu pc queimar, vc perde a pasta e seus dados. Online fica mais difícil perder os dados.
+
+Numa modificação do seu site, da versão 1.0 azul para uma versão 2.0 laranja, se você não copiou a versão 1.0 azul e simplesmente sobrescrever a antiga, você terá só a versão mais atual, a 2.0 laranja. Porém, se a versão nova estiver ruim ou desagradável ou com algum erro? Se precisar voltar pra versão 1.0 azul que já foi apagada?
+
+Nesse caso, é bom usar um GERENCIADOR DE VERSÕES, ele vai guardando as versões, 1.0 azul, a 1.1 azul-claro, a 1.3 fundo vermelho e a 2.0 laranja nesse exemplo. Se o cliente não gostar da 2.0 laranja e quiser algo ali da versão 1.1 azul-claro, esta versão está lá guardada pronta para ser acessada.
+
+Imagine que um gerenciador de versões é um Word que salva um arquivo diferente para cada texto diferente que você precisa no seu trabalho, para consulta ou edição posterior.
+
+Um desses GERENCIADORES DE VERSÕES é o GIT.
+
+Software livre, gratuito e criado pelo criador do Linux.
+
+Mesmo assim, controlando as versões, não evita de ter problemas no computador ou precisar MOSTRAR OU COMPARTILHAR SEUS ARQUIVOS PARA ALGUÉM.
+
+Ou para mostrar suas versões para um CLIENTE ou para TRABALHAR O PROJETO COM MAIS PESSOAS.
+
+Para isso, a forma mais prática sem precisar hospedar o site a cada versão, é um repositório online, o GITHUB.
+
+GIT e GITHUB são diferentes, um depende do outro mas não são obrigatórios. O GIT faz um backup de versões na sua máquina, o GITHUB faz um backup prático e acessível disso na internet, em forma de pastas como um diretório aberto (se quiser) para acesso e sua equipe trabalhar e a cada edição de alguém da equipe, a versão é salva, assim ninguém perde o progresso de cada versão.
+
+Repositório local é na sua máquina, se puxar do online(github) pro local(git) você dá um PULL.
+
+Repositório online (github) é na rede, no site dele, onde você manda pra lá dando um PUSH.
+
+b1- INSTALANDO GIT E GITHUB DESKTOP
+
+https://git-scm.com/downloads (BAIXE A VERSÃO 64bit)
+
+https://desktop.github.com/
+
+Github desktop gerencia de forma muito mais prática e intuitiva sem precisar decorar um monte de códigos para terminal.
+
+instale o Git primeiro, na hora de escolher o editor, se estiver usando o VisualStudioCode(recomendável) o escolha aqui, não o insiders, mas o normal mesmo. Após a instalação, é bom reiniciar o computador.
+
+Depois o GitHub desktop.
+
+Ao pedir pra instalar, vai pedir seu login do GitHub (a rede), como não temos ainda, vamos fazer um perfil lá.
+
+c1- FAZENDO SUA CONTA NO GITHUB
+
+Seu email e usuário tem que ter relação com seu nome ou com sua área profissional, como num linkedin, então cuidado com a escolha de email, nome e foto, pois são seu cartão de visita para clientes e equipes.
+Crie uma senha forte, boa de lembrar e difícil para hackear.
+
+Acesse o github.com
+
+Clique em SIGN UP (cadastrar)
+
+Coloque o username menor possível e mais simples para lembrar e divulgar.
+
+Coloque o email escolhido.
+
+Escolha uma senha.
+
+Verifique a conta.
+
+Criar.
+
+Vai perguntar que tipo de trabalho faz. Escolha ESTUDANTE.
+
+Em quanta experiência tem, "A LITTLE".
+
+Para quê vai usar? Aprender Git e Github, Aprender a programar, criar website.
+
+Campo abaixo é com suas intenções.
+
+Vai receber um email com verificação, acesse sua caixa e verifique o email, se demorar veja se foi pro spam.
+
+Entre com o SIGN IN ou a própria página já vai entrar com sua conta recém criada.
+
+No cantinho superior direito tem um quadradinho com uma setinha pra baixo, é seu menu de usuário, clica nele e então em Settings.
+
+Coloque uma foto escolhida com sabedoria.
+
+Nome, Bio, etc... Update profile.
+
+Se seu login é "FulanoTECH" seu perfil será github.com/fulanotech, então é bom escolher um username facil, curto e bom de lembrar e compartilhar, lembra?
+
+vá para seu perfil e minimize a tela, volte para a instalação do GITHUB DESKTOP.
+
+Agora sim, temos a conta para continuar a instalação do github desktop. ele vai ser a ponte entre nosso repositório local e o online que acabamos de criar.
+
+Coloque seu username e senha nele, para que ele acesse seu github na rede.
+
+Configure seu Git(o local), colocando um nome nele e um email se possível.
+
+Conclua a instalação. Agora já temos um gerenciador local, um remoto e uma ponte entre eles.
+
+d1- CRIANDO REPOSITÓRIOS LOCAIS E REMOTOS
+
+Configurando o Github Desktop
+
+Abra o programa GitHub Desktop. Se quiser, fixe o ícone na barra de tarefas.
+Vá em profile, options. Tem várias opções como fazer logout(bom para computadores compartilhados) e aparência(pode deixar escuro).
+
+Feche as opções.
+
+Crie uma pasta para ser seu repositório. O recomendado é uma pasta para cada, por exemplo: Dentro da pasta estudos, uma pasta HTML e uma JavaScript e até uma Python para não ficar bagunçado.
+
+Clique em CREATE A NEW REPOSITORY ON YOUR HARD DRIVE. É uma opção que fica bem no centro da janela do programa, com um símbolo de +.
+
+O nome do repositório é o nome da pasta final onde serão salvos os arquivos, como no exemplo, um repositório seria a pasta HTML, dentro da pasta estudos, lembra? Então o nome é HTML, exatamente igual como foi colocado na pasta em seu Windows.
+
+A descrição, é por sua conta, como "pasta para projetos em HTML".
+
+O Local Path é o caminho para a pasta HTML escolhida, coloque o caminho exato, sem a parte HTML, indo só até a "estudos". Queremos saber onde a pasta HTML está, não incluindo ela.
+
+Marque a caixa para inicializar com o README.
+
+Git Ignore não marque nada. 
+
+Em licensa, marque MIT license.
+
+Create repository.
+
+Ele vai demorar alguns segundos analizando e listando todos os arquivos dentro do seu repositório já criado.
+
+Ele vai criar alguns arquivos necessários e alguns ocultos dentro do seu repositório para manter cópias de seus projetos, não apague ou edite eles.
+
+e1- PUBLICANDO O REPOSITÓRIO
+
+A opção mais destacada agora é "Publish repository", que é jogar uma cópia da pasta estudos/HTML na sua conta do github na internet.
+
+Coloque o nome, a descrição e escolha se quer manter privado ou público, como é um caso de estudos, para mostrar para as pessoas ou hospedar, desmarque a caixinha e clique em Publish. Ele vai pegar os arquivos locais da máquina e jogar online na sua conta lá.
+
+Pronto
+
+f1- GERENCIANDO REPOSITÓRIOS
+
+Abrindo o Github Desktop, sempre terá um repositório já ativo, geralmente o último usado.
+
+Clique em Open in VisualStudio Code, assim você abre a pasta de repositório já no VSCode com o progresso do trabalho.
+
+Ao editar qualquer parte do seu projeto no VSCode, aparece um símbolo com um numerozinho, é a quantidade de atualizações que você acabou de fazer no projeto, assim como a letrinha M no final do arquivo no VSCode.
+
+Ao voltar ao Github Desktop ele percebe a mudança e mostra o que tinha antes  e o que foi adicionado, para conferir.
+
+Para atualizar o repositório LOCAL, ele faz um COMMIT.
+
+Na janelinha no canto esquerdo inferir, tem como colocar um título para o commit, do tipo "Atualizei o título", fazendo o commit você cria uma versão "atualizei o título" ao seu projeto.
+
+Para atualizar o repositório REMOTO, ou seja, pegar da sua máquina o projeto que acabou de fazer o commit (atualizou a versão) e mandar para o perfil online, você faz um PUSH, para ORIGIN, ou seja, você EMPURRA O SEU PROJETO EM DIREÇÃO A ORIGEM DO BACKUP, seu perfil no github na rede.
+
+Clicando em Push Origin, em destaque no Github desktop, ele vai enviar e atualizar a versão online, remota.
+
+Pode demorar uns minutos, mas indo pro seu perfil no github.com/seunomeaqui, aparece lá nos seus projetos o que acabou de enviar.
+
+
+f2- PARA CRIAR UM REPOSITÓRIO NOVO
+
+Ctrl+L ou criar novo repositório em File lá em cima, repita os passos em "d1" neste tutorial. Uma forma mais prática é criar a pasta já na janela onde vai colocar o nome do repositório, sem necessariamente criar a pasta no windows antes, o github desktop vai criar a pasta, pode conferir.
+
+Não esqueça de Publicar Repositório, para que apareça lá no seu perfil.
+
+Para navegar entre seus repositórios, o github desktop tem uma listagem deles acima daquele quadrinho de commit, onde é só selecionar seu repositório e então no botão ao lado "abrir com vscode".
+
+f3- PARA DELETAR ALGUM REPOSITÓRIO
+
+NÃO APAGUE A PASTA DIRETAMENTE DO SEU REPOSITÓRIO LOCAL.
+
+No github desktop, clique no menu superior Repository e então Remove. A pasta vai ser apagada do seu pc.
+Mas ele ainda estará no remoto, para apagar então do remoto:
+
+Na sua página REPOSITÓRIOS no github online:
+Vá para o repositório, Settings, role até o final "Danger Zone" e a última opção para deletar o repositório. Agora sim está apagado realmente sem volta.
